@@ -69,7 +69,7 @@ abbr{
 .Projects{
     text-align: center;
     font-weight: lighter;
-    height: 100vh;
+    height: 110vh;
     background-color: #FF8C00;
     font-weight: bolder;
     visibility: visible;
@@ -177,7 +177,7 @@ abbr{
 .About{
     background-color: antiquewhite;
     background-attachment: fixed;
-    height: 80vh;
+    height: 100vh;
     margin-top: 30px;
     margin-bottom: 20px;
 }
