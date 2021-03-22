@@ -1,0 +1,332 @@
+body{
+    background-color: aliceblue;
+    border-style: groove;
+    font-family: cursive;
+}
+
+.header img{
+    float: left;
+    border-radius: 50%;
+    width: 20%;
+    
+}
+.nav-bar{
+    padding: 105px;
+    background-color: #990000;
+    color: #fff;
+    margin:0px 5px;
+}
+.nav-bar a{
+    font-size: 28px;
+    text-decoration: none;
+    padding-top: 10px;
+    display: inline;
+    margin-right: auto;
+    padding: 5px;
+    color: #FF8C00;
+}
+.nav-bar a:hover{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #FF8C00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    background-color: black;
+}
+hr{
+    color: black;
+}
+.Cv-download{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 45px;
+    background-color: antiquewhite;
+    height: 70vh;
+}
+.Cv-download em{
+    color: #990000;
+}
+abbr{
+    text-decoration: none;
+}
+/*--------button1 style---------*/
+.btn1{
+    font-size: 18px;
+    background-color: #990000;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5cm;
+    border: none;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: #FF8C00;
+}
+/*-----------projects-----------*/
+.Projects{
+    text-align: center;
+    font-weight: lighter;
+    height: 100vh;
+    background-color: #FF8C00;
+    font-weight: bolder;
+    visibility: visible;
+    margin-top: 20px;
+    
+}
+.Projects h3{
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    background: #990000;
+}
+.Projects a{
+    text-decoration: none;
+    background: coral;
+    border: none;
+    border-radius: 5cm;
+    color: #990000;
+    font-size: 18px;
+}
+.Projects p{
+    font-size: 18px;
+}
+.wrapper-2{
+    width: 1170px;
+    margin: 5% auto;
+}
+.wrapper-2 h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    margin: 0;
+}
+.wrapper-2 a{
+    color: #fff;
+    text-decoration: none;
+}
+.wrapper-2 a:hover{
+    color: #FF8C00;
+}
+.Project1 ,.Project2 {
+    position: relative;
+    width: 41%;
+    background: black;
+    box-sizing: border-box;
+    padding: 0 15px;
+    transition: .5s;
+    overflow: hidden;
+    float: left;
+    margin: 0 10px;
+    text-align: center;
+    height: 42vh;
+    color: #fff;
+}
+/*----------service------*/
+.services{
+    text-align: center;
+    font-weight: lighter;
+    height: 110vh;
+    font-weight: bolder;
+    visibility: visible;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color:black;
+}
+.services h3{
+    font-size: 35px;
+    color: #FF8C00;
+    background-color: #990000;
+}
+.services p{
+    font-size: 18px;
+    color: antiquewhite;
+    font-weight: bold;
+
+}
+.Prog-lang{
+    width: 1170px;
+    margin: 5% auto;
+
+}
+.Prog-lang h3{
+    font size: 45px;
+}
+.lang1, .lang2, .lang3{
+    height: 35vh;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0 15px;
+    text-align: center;
+    width: 41%;
+    background-color: black;
+    float: left;
+    color: #fff;
+    margin: 0 10px;
+    border-radius: 100px;
+    background-color: #FF8C00;
+
+    
+}
+/*------About-------*/
+.About{
+    background-color: antiquewhite;
+    background-attachment: fixed;
+    height: 80vh;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.About p{
+    text-align: center;
+    font-size: 28px;
+
+}
+.About em{
+    color: #990000;
+    font-weight: bold;
+}
+.About h3{
+    color: #FF8C00;
+    text-align: center;
+    font-size: 40px;
+    background-color: black;
+}
+.About strong{
+    color: #990000;
+}
+/*----------footer----------*/
+.footer{
+    background-color: black;
+}
+.footer a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #FF8C00;
+}
+.footer li{
+    list-style-type: none;
+    display: block;
+    font-size: 28px;
+}
+.footer p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+/*-------wrapper/contact--------*/
+.wrapper{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    background-color: #FF8C00;
+}
+.form-area{
+    background-color: #fff;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    box-shadow: 0 40px 20px rgba(0,0,0,0.5);
+}
+.img-area{
+    width: 100%;
+}
+.right-text h2{
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0 0 30px;
+}
+.right-text a{
+    background: #990000;
+    color: #fff;
+    display: inline-block;
+    margin-top: 35px;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+div.img-area{
+    height: 300px;
+    width: 100%;
+    background: url(./image/dark_nature.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.left-text{
+    padding: 100px 60px;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.left-text p{
+    text-transform: none;
+}
+.left-text i{
+    font-size: 25px;
+    color: #fff;
+    margin-right: 25px;
+}
+.right-text{
+    margin: 60px 40px;
+}
+.right-text input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.right-text textarea{
+
+}
+@media screen and (min-width: 768px){
+    div.form-area{
+        flex-direction: row;
+        width: 100%;
+    }
+    div.img-area{
+        height: 420px;
+        min-width: 360px;
+    }
+    div.right-text{
+        margin: 0 60px;
+        max-width: 640px;
+    }
+}
+@media screen and (min-width: 1024px){
+    div.form-area{
+        max-width: 1000px;
+    }
+}
+@media screen and (max-width: 320px){
+    .img-area{
+        display: none;
+    }
+    .right-text{
+        margin: 30px 25px;
+        text-align: center;
+    }
+    .right-text input{
+        padding: 15px 5px;
+    }
+    .right-text textarea{
+        padding: 15px 5px;
+    }
+}
