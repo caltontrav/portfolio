@@ -1,0 +1,26 @@
+*{
+    font-family: 'Urbanist', sans-serif;
+}
+#main-nav{
+    border-color: transparent;
+}
+html{
+    scroll-behavior: smooth;
+}
+ht::-webkit-scrollbar{
+    display: none;
+}
+
+.circle >img{
+    transition: ease 1s;
+    cursor: pointer;
+}
+.circle >img:hover{
+    transform: scale(1.2);
+}
+#portfolio{
+    background-color: #FFFAFA;
+}
+#card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
